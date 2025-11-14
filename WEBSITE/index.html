@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elcaymotion Clips</title>
+
+  <!-- Only Poppins needed now (the fancy text is pure Unicode) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FAVICONS -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <span class="crown">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="#bb86fc" aria-hidden="true">
+          <path d="M5,16L3,5L8.5,10L12,4L15.5,10L21,5L19,16H5M19,19V21H5V19H19Z"/>
+        </svg>
+      </span>
+      <div class="logo-text">
+        <div class="main-title">𝓔𝓵𝓬𝓪𝔂𝓜𝓸𝓽𝓲𝓸𝓷</div>
+        <div class="divider-line">
+          <span class="sub-title">𝓐𝓷𝓲𝓶𝓮 𝓒𝓵𝓲𝓹𝓼</span>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Main navigation">
+      <a href="#" class="active">Home</a>
+      <a href="#">Clips</a>
+      <a href="#">Raw</a>
+      <a href="premium.html">Premium</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Search -->
+    <div class="search-wrapper">
+      <input type="text" id="searchInput" placeholder="Search anime..." aria-label="Search anime" />
+    </div>
+
+    <!-- Trending -->
+    <section class="trending" aria-labelledby="trending-title">
+      <h2 id="trending-title">Recommended Anime for Edits</h2>
+      <div class="clip-grid" id="clipGrid">
+
+        <a href="clips/demon-slayer.html" class="clip-card" data-title="Demon Slayer">
+          <div class="card-bg" style="background-image:url('images/thumbnails/demon-slayer.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Demon Slayer</div>
+        </a>
+
+        <a href="clips/chainsaw-man.html" class="clip-card" data-title="Chainsaw Man">
+          <div class="card-bg" style="background-image:url('images/thumbnails/chainsaw-man.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Chainsaw Man</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+        <a href="#" class="clip-card" data-title="Jujutsu Kaisen">
+          <div class="card-bg" style="background-image:url('images/thumbnails/jujutsu-kaisen.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Jujutsu Kaisen</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+        <a href="#" class="clip-card" data-title="Attack on Titan">
+          <div class="card-bg" style="background-image:url('images/thumbnails/aot.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Attack on Titan</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+        <a href="#" class="clip-card" data-title="One Piece">
+          <div class="card-bg" style="background-image:url('images/thumbnails/one-piece.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">One Piece</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+        <a href="#" class="clip-card" data-title="Naruto">
+          <div class="card-bg" style="background-image:url('images/thumbnails/naruto.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Naruto</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+        <a href="#" class="clip-card" data-title="Solo Leveling">
+          <div class="card-bg" style="background-image:url('images/thumbnails/solo-leveling.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Solo Leveling</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+        <a href="#" class="clip-card" data-title="Vinland Saga">
+          <div class="card-bg" style="background-image:url('images/thumbnails/vinland-saga.jpg');"></div>
+          <div class="card-overlay"></div>
+          <div class="card-title">Vinland Saga</div>
+          <span class="coming-soon">Soon</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Premium + Discord -->
+    <section class="premium-cta">
+      <div class="perks-card">
+        <h3>Premium Perks</h3>
+        <ul class="perks-list">
+          <li><svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="#bb86fc"><path d="M9,16.17L4.83,12L3.41,13.41L9,19L21,7L19.59,5.59L9,16.17Z"/></svg> Early Access To New Releases</li>
+          <li><svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="#bb86fc"><path d="M9,16.17L4.83,12L3.41,13.41L9,19L21,7L19.59,5.59L9,16.17Z"/></svg> Exclusive AI Generated Clips/Audios</li>
+        </ul>
+      </div>
+
+      <div class="discord-card">
+        <div class="discord-content">
+          <h3><svg class="star-icon" width="24" height="24" viewBox="0 0 24 24" fill="#bb86fc"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg> Join our Discord</h3>
+          <a href="https://discord.gg/v5B7Ex9Q" target="_blank" rel="noopener" class="discord-btn">JOIN NOW</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" aria-labelledby="about-title">
+      <h3 id="about-title">About</h3>
+      <p>Discover the best anime edits and clips.<br>Join our community of anime enthusiasts!</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mailto:contact@elcaymotion.com">Contact Us</a>
+    <p>© 2025 Elcaymotion Clips. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Active nav link
+    document.querySelectorAll('nav a').forEach(link => {
+      if (link.href === location.href) link.classList.add('active');
+    });
+
+    // Live search
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.clip-card');
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase().trim();
+      cards.forEach(card => {
+        const title = card.dataset.title.toLowerCase();
+        card.style.display = title.includes(query) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
